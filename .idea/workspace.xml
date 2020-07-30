@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f90576f-1784-440d-8413-8ef7f6d32d2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/AboutUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/core/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/base/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/base/_links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/theme/sections/_testimonial.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +34,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CLL319\law-app\src\views" />
       <recent name="C:\Users\CLL319\law-app\public" />
     </key>
   </component>
@@ -66,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596075354405</updated>
-      <workItem from="1596075355892" duration="7303000" />
+      <workItem from="1596075355892" duration="9801000" />
     </task>
     <servers />
   </component>

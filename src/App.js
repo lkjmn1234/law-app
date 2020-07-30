@@ -3,6 +3,7 @@ import { useLocation, Switch ,Route} from 'react-router-dom';
 import ScrollReveal from './utils/ScrollReveal';
 import Home from './views/Home';
 import Register from './views/Register';
+import Login from './views/Login';
 import AboutUs from './views/AboutUs';
 import Support from './views/Support';
 
@@ -24,6 +25,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/login" component={Login} />
           <Route exact path="/aboutus" component={AboutUs} />
           <Route exact path="/support" component={Support} />
         </Switch>

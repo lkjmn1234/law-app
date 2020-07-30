@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 //import './App.css';
 import './assets/scss/style.scss';
+import 'fontsource-roboto';
 
 const history = createBrowserHistory();
 //<!-- Hotjar Tracking Code for https://lawinfo-app.herokuapp.com/ -->

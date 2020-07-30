@@ -65,6 +65,9 @@ const Header = ({
                                     <li><Link to="/aboutus">About us</Link></li>
                                 </ul>
                                 <ul className="list-reset header-nav-right">
+                                    <li><Link to="/login">Sign in</Link></li>
+                                </ul>
+                                <ul className="list-reset header-nav-right">
                                     <li><Link to="/register">Sign up</Link></li>
                                 </ul>
                             </div>
