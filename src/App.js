@@ -1,9 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch ,Route} from 'react-router-dom';
 import ScrollReveal from './utils/ScrollReveal';
-
-
-// Views
 import Home from './views/Home';
 
 const App = () => {
