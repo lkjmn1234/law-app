@@ -61,13 +61,11 @@ const Header = ({
                                     isActive && 'is-active'
                                 )}>
                             <div className="header-nav-inner">
-                                <ul
-                                    className="list-reset header-nav-right"
-                                >
-                                    <li>
-                                        <Link to="#0" className="button button-primary button-wide-mobile button-sm">Sign
-                                            up</Link>
-                                    </li>
+                                <ul className="list-reset header-nav-right">
+                                    <li><Link to="/aboutus">About us</Link></li>
+                                </ul>
+                                <ul className="list-reset header-nav-right">
+                                    <li><Link to="/register">Sign up</Link></li>
                                 </ul>
                             </div>
                         </nav>
