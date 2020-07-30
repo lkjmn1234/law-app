@@ -2,17 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f90576f-1784-440d-8413-8ef7f6d32d2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/core/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/base/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/base/_links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/settings/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_testimonial.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/theme/sections/_testimonial.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/abstracts/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/abstracts/_include-media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/abstracts/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base/_scroll-reveal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/elements/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/elements/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/elements/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/elements/_hamburger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/elements/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/patterns/_split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/patterns/_tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_cta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_features-split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_features-tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/sections/_testimonial.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_scroll-reveal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/base/_widths-and-spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/elements/_buttons-and-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/elements/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/patterns/_split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/patterns/_tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/sections/_cta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/sections/_features-split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/sections/_features-tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/sections/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/settings/sections/_testimonial.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/base/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/base/_scroll-reveal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/elements/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/elements/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/elements/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/elements/_hamburger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/elements/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/illustrations/_illustrations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/patterns/_split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/patterns/_tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_cta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_features-split.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_features-tiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/theme/sections/_testimonial.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/ButtonGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/FormHint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/FormLabel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/SmoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/partials/FooterNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/partials/FooterSocial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/partials/Logo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ScrollReveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/SectionProps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/AboutUs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Support.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596075354405</updated>
-      <workItem from="1596075355892" duration="9801000" />
+      <workItem from="1596075355892" duration="14922000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,22 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch ,Route} from 'react-router-dom';
+import { useLocation, Switch } from 'react-router-dom';
+import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
+import ReactGA from 'react-ga';
+
+// Layouts
+import LayoutDefault from './layouts/LayoutDefault';
+
+// Views 
 import Home from './views/Home';
-import Register from './views/Register';
-import Login from './views/Login';
-import AboutUs from './views/AboutUs';
-import Support from './views/Support';
+
+// Initialize Google Analytics
+ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+
+const trackPage = page => {
+  ReactGA.set({ page });
+  ReactGA.pageview(page);
+};
 
 const App = () => {
 
@@ -13,8 +24,10 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
+    const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
+    trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
@@ -23,11 +36,7 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/aboutus" component={AboutUs} />
-          <Route exact path="/support" component={Support} />
+          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
         </Switch>
       )} />
   );
