@@ -31,12 +31,6 @@ const Hero = ({
         className
     );
 
-    const innerClasses = classNames(
-        'section-inner',
-        topDivider && 'has-top-divider',
-        bottomDivider && 'has-bottom-divider'
-    );
-
     return (
         <section
             {...props}
@@ -45,7 +39,7 @@ const Hero = ({
         >
             <div className="container">
                 <h1 style={{ 'text-align':'left' }}>Find Lawyer</h1>
-                <div>
+                <div style={{padding:'1%'}}>
                     <div className="hero-content">
                         <div className="container-xs">
                             <ul className="list-reset">
