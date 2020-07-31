@@ -30,6 +30,7 @@ const Footer = ({
     <footer
       {...props}
       className={classes}
+      style={{ backgroundColor: '#8c8c90' }}
     >
       <div className="container">
         <div className={

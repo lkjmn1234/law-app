@@ -78,6 +78,7 @@ const Header = ({
     <header
       {...props}
       className={classes}
+      style={{ backgroundColor: '#bababe' }}
     >
       <div className="container">
         <div className={
@@ -85,7 +86,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          {/*<Logo />*/}
           {!hideNav &&
             <>
               <button

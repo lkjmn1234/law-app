@@ -41,10 +41,11 @@ const Hero = ({
         <section
             {...props}
             className={outerClasses}
+            style={{ backgroundColor: '#bababe' }}
         >
             <div className="container">
                 <h1 style={{ 'text-align':'left' }}>Find Lawyer</h1>
-                <div className={innerClasses}>
+                <div>
                     <div className="hero-content">
                         <div className="container-xs">
                             <ul className="list-reset">

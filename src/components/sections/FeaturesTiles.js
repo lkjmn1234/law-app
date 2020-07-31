@@ -41,6 +41,7 @@ const FeaturesTiles = ({
     <section
       {...props}
       className={outerClasses}
+      style={{ backgroundColor: '#fbfbff' }}
     >
       <div className="container">
         <div className={innerClasses}>
