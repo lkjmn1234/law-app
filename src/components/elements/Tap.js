@@ -58,7 +58,7 @@ export default function ScrollableTabsButtonAuto() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" color="default">
+            <AppBar position="static" style={{ backgroundColor: '#2196F3' }}>
                 <Tabs
                     value={value}
                     onChange={handleChange}
@@ -72,10 +72,10 @@ export default function ScrollableTabsButtonAuto() {
                     <Tab label="Item Two" {...a11yProps(1)} />
                 </Tabs>
             </AppBar>
-            <TabPanel value={value} index={0}>
+            <TabPanel value={value} index={0} style={{ backgroundColor: '#2196F3' }}>
                 Item One
             </TabPanel>
-            <TabPanel value={value} index={1}>
+            <TabPanel value={value} index={1} style={{ backgroundColor: '#2196F3' }}>
                 Item Two
             </TabPanel>
         </div>

@@ -44,7 +44,7 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <TapContainer></TapContainer>
+          <TapContainer className="center-content"></TapContainer>
         </div>
       </div>
     </section>
