@@ -19,6 +19,7 @@ app.get('/informative.jpg', function(req, res) {
 app.get('/intelligent.jpg', function(req, res) {
   res.sendFile(path.join(__dirname,'build', 'intelligent.jpg'));
 });
+
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
