@@ -14,9 +14,9 @@ const Home = () => {
       <div className="container" style={{ textAlign: "center" }}>
         <h8>"Find Lawyers" is the first platform that provides a standardized and streamlined experience for anyone seeking legal services in Hong Kong</h8>
         <div className="card-wrapper" style={{ marginTop: '30px', marginBottom: '40px' }}>
-          <MediaCard path="/informative.jpg" header="Informative" content="Data base of all the law firms in Hong Kong, complete with detailled info such as year of establishment, available language, etc."></MediaCard>
-          <MediaCard path="/interactive.jpg" header="Interactive" content="Built-in communication tools to help you communicate with your legal advisers quickly and safely."></MediaCard>
-          <MediaCard path="/intelligent.jpg" header="Intelligent" content="Recommending the best law firm for you, powered by AL and Data analytics."></MediaCard>
+          <MediaCard path="/informative.JPG" header="Informative" content="Data base of all the law firms in Hong Kong, complete with detailled info such as year of establishment, available language, etc."></MediaCard>
+          <MediaCard path="/interactive.JPG" header="Interactive" content="Built-in communication tools to help you communicate with your legal advisers quickly and safely."></MediaCard>
+          <MediaCard path="/intelligent.JPG" header="Intelligent" content="Recommending the best law firm for you, powered by AL and Data analytics."></MediaCard>
         </div>
         <ButtonGroup style={{ marginBottom: '20px' }}>
           <Button>Listing by Lawyers</Button>

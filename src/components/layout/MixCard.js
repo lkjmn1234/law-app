@@ -36,7 +36,7 @@ export default function MediaCard(props) {
                     </Typography>
                 </CardContent>
             </Card>
-            <Avatar alt="Remy Sharp" src='/intelligent.jpg' className={classes.square} />
+            <Avatar alt="Remy Sharp" src='/intelligent.JPG' className={classes.square} />
         </div>
     );
 }
