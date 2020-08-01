@@ -10,7 +10,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-const FeaturesTiles = ({
+const HomeSearch = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -43,7 +43,7 @@ const FeaturesTiles = ({
       className={outerClasses}
       style={{ backgroundColor: '#fbfbff' }}
     >
-      <div className="container">
+      <div className="container" style={{marginTop:'20px'}}>
         <div className={innerClasses}>
           <TapContainer className="center-content"></TapContainer>
         </div>
@@ -52,7 +52,7 @@ const FeaturesTiles = ({
   );
 }
 
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
+HomeSearch.propTypes = propTypes;
+HomeSearch.defaultProps = defaultProps;
 
-export default FeaturesTiles;
+export default HomeSearch;

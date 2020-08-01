@@ -93,6 +93,7 @@ const Header = ({
                 ref={hamburger}
                 className="header-nav-toggle"
                 onClick={isActive ? closeMenu : openMenu}
+                style={{ backgroundColor: '#000000' }}
               >
                 <span className="screen-reader">Menu</span>
                 <span className="hamburger">

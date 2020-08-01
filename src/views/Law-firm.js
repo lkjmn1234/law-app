@@ -1,7 +1,6 @@
 import React from 'react';
 // import sections
 import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
 import CheckboxesGroup from '../components/layout/CheckboxGroup';
 import Button from '@material-ui/core/Button';
 

@@ -38,7 +38,7 @@ const Hero = ({
             style={{ backgroundColor: '#bababe' }}
         >
             <div className="container">
-                <h1 style={{ 'text-align':'left' }}>Find Lawyer</h1>
+                <h1 style={{ 'text-align':'left' }}>Find Lawyers</h1>
                 <div style={{padding:'1%'}}>
                     <div className="hero-content">
                         <div className="container-xs">

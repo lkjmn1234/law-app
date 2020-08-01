@@ -1,10 +1,7 @@
 import React from 'react';
 // import sections
 import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import { Card } from '@material-ui/core';
 import SimpleCard from '../components/layout/SimpleCard';
-import classNames from 'classnames';
 
 const Home = () => {
 

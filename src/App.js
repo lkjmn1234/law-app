@@ -45,7 +45,7 @@ const App = () => {
           <AppRoute exact path="/success" component={Success} layout={LayoutDefault} />
           <AppRoute exact path="/lawInfoDetail" component={LawInfoDetail} layout={LayoutDefault} />
           <AppRoute exact path="/lawInfo" component={LawInfo} layout={LayoutDefault} />
-          <AppRoute exact path="/lawInfoResult" component={LawInfoResult} layout={LawInfoResult} />
+          <AppRoute exact path="/lawInfoResult" component={LawInfoResult} layout={LayoutDefault} />
           <AppRoute exact path="/aboutUs" component={AboutUs} layout={LayoutDefault} />
           <AppRoute exact path="/members" component={Members} layout={LayoutDefault} />
         </Switch>
