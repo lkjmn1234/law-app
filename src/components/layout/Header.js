@@ -105,14 +105,24 @@ const Header = ({
                   classNames(
                     'header-nav',
                     isActive && 'is-active'
-                  )}>
+                  )}
+                  style={{ backgroundColor: '#bababe' }}>
                 <div className="header-nav-inner">
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="/" onClick={closeMenu}>Sign up</Link>
+                        <Link to="/register" onClick={closeMenu}>Register</Link>
+                      </li>
+                      <li>
+                        <Link to="/login" onClick={closeMenu}>Login</Link>
+                      </li>
+                      <li>
+                        <Link to="/pricing" onClick={closeMenu}>Pricing</Link>
+                      </li>
+                      <li>
+                        <Link to="/listing" onClick={closeMenu}>Listing</Link>
                       </li>
                     </ul>}
                 </div>

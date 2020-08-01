@@ -44,11 +44,11 @@ const Hero = ({
                         <div className="container-xs">
                             <ul className="list-reset">
                                 <li>
-                                  <Link to="/">  Home  | </Link>
-                                  <Link to="/about-us">  About Us  |</Link>
-                                  <Link to="/law-firms">  Law Firms  |</Link>
-                                  <Link to="/cases">  Success Cases  |</Link>
-                                  <Link to="/member">  Member  |</Link>
+                                  <Link to="/">  Home    | </Link>
+                                  <Link to="/aboutUs">  About Us    |</Link>
+                                  <Link to="/lawInfo">  Law Firms    |</Link>
+                                  <Link to="/success">  Success Cases    |</Link>
+                                  <Link to="/members">  Members  </Link>
                                 </li>
                             </ul>
                         </div>

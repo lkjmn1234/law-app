@@ -14,7 +14,7 @@
 }
 
 .site-footer-inner {
-	padding: $footer--padding__mobile 0;
+	padding: 0 0 $footer--padding__mobile 0;
 }
 
 .footer-top {
@@ -22,7 +22,11 @@
 }
 
 .footer-bottom {
+	text-align: center;
 	padding-top: $footer-inner--padding-v / 2;
+}
+.footer-reserved {
+	padding: 1% 0 5% 15%;
 }
 
 .footer-blocks {
@@ -151,7 +155,9 @@
 }
 
 @include media( '<=medium' ) {
-
+	.footer-reserved {
+		padding: 1% 1% 1% 3%;
+	}
 	.footer-top,
 	.footer-bottom {
 
@@ -166,10 +172,9 @@
 	@if ( $footer--padding__mobile != $footer--padding__desktop ) {
 
 		.site-footer-inner {
-			padding: $footer--padding__desktop 0;
+			padding: 0 0 1% 23%;
 		}
 	}
-
 	.footer-top,
 	.footer-bottom {
 

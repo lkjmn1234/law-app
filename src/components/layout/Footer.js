@@ -41,6 +41,9 @@ const Footer = ({
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
           </div>
+          <div className="footer-reserved text-xxs">
+            @ 2020 by Find Lawyser Hong Kong All rights reserved.
+          </div>
         </div>
       </div>
     </footer>

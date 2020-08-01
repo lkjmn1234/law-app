@@ -68,14 +68,14 @@ export default function ScrollableTabsButtonAuto() {
                     scrollButtons="auto"
                     aria-label="scrollable auto tabs example"
                 >
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
+                    <Tab label="Keyword" {...a11yProps(0)} />
+                    <Tab label="Area of Practice" {...a11yProps(1)} />
                 </Tabs>
             </AppBar>
-            <TabPanel value={value} index={0} style={{ backgroundColor: '#bababe' }}>
+            <TabPanel value={value} index={0} style={{ backgroundColor: '#ECEDED' }}>
                 Item One
             </TabPanel>
-            <TabPanel value={value} index={1} style={{ backgroundColor: '#bababe' }}>
+            <TabPanel value={value} index={1} style={{ backgroundColor: '#ECEDED' }}>
                 Item Two
             </TabPanel>
         </div>
