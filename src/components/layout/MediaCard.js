@@ -26,7 +26,7 @@ export default function MediaCard(props) {
         <CardMedia
           className={classes.media}
           image={path}
-          title="Contemplative Reptile"
+          title={header}
           style={{minHeight:'300px'}}
         />
         <CardContent>
