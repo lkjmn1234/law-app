@@ -665,15 +665,15 @@ module.exports = function (webpackEnv) {
     devServer: {
       proxy: {
         '/interactive.JPG': {
-          target: 'http://localhost:3000',
+          target: 'http://localhost:3000/interactive.JPG',
           secure: false
         },
         '/informative.JPG': {
-          target: 'http://localhost:3000',
+          target: 'http://localhost:3000/informative.JPG',
           secure: false
         }, 
         '/intelligent.JPG': {
-          target: 'http://localhost:3000',
+          target: 'http://localhost:3000/intelligent.JPG',
           secure: false
         }
       }
