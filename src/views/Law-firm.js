@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../components/sections/Hero';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 import CheckboxesGroup from '../components/layout/CheckboxGroup';
+import Button from '@material-ui/core/Button';
 
 const Home = () => {
 
@@ -49,6 +50,7 @@ const Home = () => {
         ]
         }>
       </CheckboxesGroup>
+      <Button size="large" style={{ backgroundColor: '#DCDCDC' ,marginBottom:'20px',marginTop:'20px',marginLeft:'45%'}}>Search</Button>
     </>
   );
 }
