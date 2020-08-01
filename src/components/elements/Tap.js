@@ -87,12 +87,12 @@ export default function ScrollableTabsButtonAuto() {
                 </div>
             </TabPanel>
             <TabPanel value={value} index={1} style={{ backgroundColor: '#ECEDED' }}>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Civil Claims</Button>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Convetancing</Button>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Family Law</Button>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Arbitration / Mediation</Button>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Corporate Finance</Button>
-                <Button style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Criminal Law</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Civil Claims</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Convetancing</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Family Law</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Arbitration / Mediation</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Corporate Finance</Button>
+                <Button href="/lawInfoResult" style={{backgroundColor: '#A9A9A9', color: 'white',marginLeft:'10px',marginRight:'10px',borderRadius: '8px',minWidth: '260px', minHeight: '60px',marginBottom:'5px'}}>Criminal Law</Button>
             </TabPanel>
         </div>
     );

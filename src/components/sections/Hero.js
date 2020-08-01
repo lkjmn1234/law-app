@@ -37,7 +37,7 @@ const Hero = ({
             className={outerClasses}
             style={{ backgroundColor: '#bababe' }}
         >
-            <div >
+            <div className="container">
                 <h1 style={{ 'text-align':'left' }}>Find Lawyers</h1>
                 <div style={{padding:'1%'}}>
                     <div className="hero-content">

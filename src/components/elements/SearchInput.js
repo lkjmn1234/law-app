@@ -7,6 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import DirectionsIcon from '@material-ui/icons/Directions';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,7 +38,7 @@ export default function SearchInput() {
         className={classes.input}
         placeholder="Bankruptcy, divorce, insurance..."
       />
-      <IconButton type="submit" className={classes.iconButton} aria-label="search">
+      <IconButton className={classes.iconButton} aria-label="search" href="/lawInfoResult">
         <SearchIcon />
       </IconButton>
     </Paper>

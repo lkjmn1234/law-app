@@ -84,9 +84,7 @@
 .header-nav-toggle {
 	display: none;
 }
-
 @include media( '<=medium' ) {
-
 	.header-nav-toggle {
 		display: block;
 

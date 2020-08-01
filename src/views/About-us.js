@@ -8,9 +8,11 @@ const Home = () => {
   return (
     <>
       <Hero className="illustration-section-01" />
-      <h3>About Us</h3>
+      <div className="container">
+        <h3>About Us</h3>
         <MixCard></MixCard>
-      <h3>Founders</h3>
+        <h3>Founders</h3>
+      </div>
       <div className="container card-wrapper">
         <CustomAatar name="Calvin Gan"></CustomAatar>
         <CustomAatar name="Walter Tsang"></CustomAatar>
