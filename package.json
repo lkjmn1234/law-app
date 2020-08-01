@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "fontsource-roboto": "^2.2.6",
+    "http-proxy-middleware": "^1.0.5",
     "lodash": "^4.17.15",
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.13.1",
@@ -35,7 +36,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:3000/index.html",
   "browserslist": {
     "production": [
       ">0.2%",
