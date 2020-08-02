@@ -26,7 +26,7 @@ const Home = () => {
           content={
             [
               { name: 'All' }, { name: 'New Territories' },
-              { name: 'KowLoon' }, { name: 'Hong Kong Island' },
+              { name: 'Kowloon' }, { name: 'Hong Kong Island' },
             ]
           }>
         </CheckboxesGroup>

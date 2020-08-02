@@ -42,7 +42,7 @@ const Footer = ({
             <FooterNav />
           </div>
           <div className="footer-reserved text-xxs">
-            @ 2020 by Find Lawysers Hong Kong All rights reserved.
+            &#169; 2020 by Ginni Hong Kong All rights reserved.
           </div>
         </div>
       </div>

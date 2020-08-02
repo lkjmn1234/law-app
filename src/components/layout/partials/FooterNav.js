@@ -37,7 +37,7 @@ const FooterNav = ({
           <Link to="/privacy">Privacy</Link>
         </li>
         <li>
-          <Link to="/terms">Term of Us</Link>
+          <Link to="/terms">Terms of Use</Link>
         </li>
       </ul>
     </nav>
