@@ -29,7 +29,7 @@ export default function ProfileCard() {
 
     return (
         <div>
-            <h4>Update 3 days ago | 100 views</h4>
+            <h4>Updated 3 days ago | 100 views</h4>
             <Card className={classes.root}>
                 <CardContent className={classes.content}>
                     <Typography component="h5" variant="h5">
